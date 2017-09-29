@@ -1,0 +1,180 @@
+/*This is for the pages without the nav tabs to heep tbe h1 tages down from the nav*/
+.top {
+	margin-top: .5em;
+}
+
+/*Used to align the h1 on the index page to the center*/
+.top1 {
+	text-align:center;
+}
+
+/*Used to set the background color of the body to white and the font to white*/
+body {
+  background-color: white;
+  color: black;
+}
+
+/*Used to space the nav tabs 1em down from the main nav on the browser pages*/
+.container .nav-tabs {
+  margin-top: 1em;
+}
+
+/*Setting the type of font used*/
+p {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/*Sets the border color of the nav tabs on the browser pages*/
+.nav-tabs {
+  border-color: #0CF;
+  }
+
+/*Sets what kinda font, if you want an underline of another textdecoration and what color font you want in the links in the nav tabs*/
+.nav-tabs li a:link, .nav-tabs li a:visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;  
+}
+
+/*When the tab you are on is active the color of the tabe will change to a darker blue and the borders will be another shade of blue and sets the font color to white*/
+.nav-tabs li.active a {
+    background-color: #0CF;
+    color:white;
+    border-color: #09F;
+}
+
+/*Sets a light blue over the tab when you are hovering over it and the font color stays white*/
+.nav-tabs li a:hover,.nav-tabs li.active a:hover{
+    background-color: #B7DBFF;
+    color:white;
+}
+
+/*this is the used to style the nav bar*/
+.navbar {
+  /*Sets a backround image on the navbar*/	
+  background-image: url(../images/browsers.png);
+  /*Sets the colour of the nav bar*/
+  background-color: #0CF;
+  /*Sets the border color of the nav bar*/ 
+  border-color: #09F;
+  /*The backround image does not repeat*/
+  background-repeat: no-repeat;
+  /*The background image is positioned to the right of the nav bar*/
+  background-position: right;
+  /*Adds padding to the navbar*/
+  padding: .2em;
+  /*Pushes the nav bar 2em from the top of the page*/
+  margin-top: 2em;
+}
+
+
+/*Sets the text on the navbar to white and removes the text shadow and makes the font bold*/
+.navbar .navbar-brand, .navbar ul.nav li a:link, .navbar ul.nav li a:visited, .navbar ul.nav li  a:hover {
+  color : white;
+  font-weight: bolder;
+  text-shadow: none;
+}
+
+/*Sets the font family of the navbar and spaces each element out from each other*/
+.navbar ul.nav li {
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 1em;
+  margin:0 .7em;
+}
+
+/*Sets the color of the font in the dropdown menu to black and bolding the font*/
+.navbar ul.nav li.dropdown >ul.dropdown-menu a:link, .navbar ul.nav li.dropdown >ul.dropdown-menu a:visited{
+  color:black;
+  font-weight:bold;
+}
+
+/*Spaces the drop down menu you .1em from the browsers tab*/
+ul.nav li.dropdown ul{
+  margin-top:.1em;
+}
+
+/*when the dropdown menu drops the color of the browser tab will stay blue insted of going black*/
+.navbar .nav li.dropdown.open .dropdown-toggle {
+  color:white;
+  background-color: #0CF;
+  background-image:none;
+  box-shadow:none;
+}
+
+/*when you hover over the dropdoen menu it changes color*/
+.navbar ul.nav li.dropdown >ul.dropdown-menu a:hover{
+  background-image:none;
+  background-color:#0CF;
+  color:white;
+}
+
+/*when the pages goes on to the smaller screen and the toggle on the right shows its color is white*/
+.navbar-inverse .navbar-toggle{
+  border-color:white;
+}
+
+/*when the pages goes on to the smaller screen and the toggle on the right shows when you hover over it it chabges color to black*/
+ .navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
+  background-color:black;
+}
+
+/*styling the footer*/
+footer{
+	/*setting the background color to white*/
+	background-color:white;
+	/*giving it a 1em margin at the top*/
+	margin-top: 1em;
+	/*and a margin at the bottom of 2em*/
+	margin-bottom: 2em;
+	/*seting a background image*/
+	background-image: url(../images/browsers.png);
+	/*setting the background image to no repeat*/
+	background-repeat: no-repeat;
+	/*and positioning it ot he right*/
+    background-position: right;
+}
+
+/*giving the footer h5's a left margin of 4.8em*/
+footer h5{
+	margin-left: 4.8em;
+}
+	
+/*giving the list in the footer a marging of 2em from the left*/
+footer ul{
+	margin-left: 2em;
+}
+
+/*styling the links inside the footer*/
+footer ul li{
+	list-style-type:none;
+	font-size: 12px;
+	color: black;
+}
+
+/*setting the look of the hr tag*/
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/*setting the color of the font to white and having no text decoration in all states*/
+button a:link, button a:visited, button ahover, button a:active{
+  color: white;
+  text-decoration: none;
+}
+
+
+	
+
+
+
+
+
+
+
+
